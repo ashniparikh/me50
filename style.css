@@ -1,0 +1,72 @@
+* {
+    font-style: sans-serif;
+    padding: 5px;
+}
+
+h3 {
+    margin-top: 5px;
+}
+
+nav a {
+    color: rgb(22, 26, 31);
+    text-decoration: none;
+}
+
+ul>li {
+    color: rgb(77, 3, 40)
+}
+
+ul,
+ol {
+    padding: 15px
+}
+
+input[type=submit] {
+    background-color: rgb(128, 128, 134);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px
+}
+
+.alert p a::before {
+    content: "Clicking:";
+    font-weight: bold;
+    color: rgb(25, 61, 49);
+    text-decoration: none;
+}
+
+input [type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+@media screen and (max-width: 600px) {
+    input[type=submit] {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+.grid {
+    background-color: rgb(161, 171, 180);
+    display: grid;
+    padding: 5px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 7px;
+}
